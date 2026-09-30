@@ -1,6 +1,6 @@
 # 💼 JOBIEE AI Job Filter & Mock Interview Coach
 
-JOBIEE is a career assistant and AI mock interview platform built with **Streamlit**, **OpenAI GPT**, and **FPDF**. It helps candidates find matching corporate openings based on their education and seniority, extract insights from their CV/resume, generate dynamic role-tailored interview challenges, evaluate responses in real-time, and download professional PDF evaluation scorecards.
+JOBIEE is a simple career assistant and AI mock interview platform built with **Streamlit**, **OpenAI GPT**, and **FPDF**. It helps candidates find matching corporate openings based on their education and seniority, extract insights from their CV/resume, generate dynamic role-tailored interview challenges, evaluate responses in real-time, and download professional PDF evaluation scorecards.
 
 ---
 
