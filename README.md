@@ -1,19 +1,53 @@
-# Job Filter Chatbot
+# 💼 JOBIEE — AI Job Filter & Mock Interview Coach
 
-#Overview
-Job filter chatbot application designed to assist users in finding suitable job positions based on their personal information and qualifications. It provides an interactive interface where users can input their details, select a company, upload their CV, and answer interview questions. The application generates a detailed report based on the user's responses.
+JOBIEE is an intelligent career assistant and AI mock interview platform built with **Streamlit**, **OpenAI GPT**, and **FPDF**. It helps candidates find matching corporate openings based on their education and seniority, extract insights from their CV/resume, generate dynamic role-tailored interview challenges, evaluate responses in real-time, and download professional PDF evaluation scorecards.
 
-#Features
-Interactive User Interface: Built with Streamlit for an engaging user experience.
-Company Selection: Users are matched with companies based on their degree and job position.
-CV Upload and Parsing: Users can upload their CV, which is used to tailor interview questions.
-Interview Questions: Generates relevant interview questions based on job description and CV.
-Evaluation and Report Generation: Provides feedback on user responses and generates a downloadable PDF report.
+---
 
-#Usage
-Personal Information: Enter your name, degree, job position, and education.
-Company Selection: Choose from eligible companies based on your profile.
-Company Information: View details and job descriptions for the selected company.
-Upload CV: Upload your CV to get tailored interview questions.
-Interview Questions: Answer the generated questions. You will receive feedback and scores for each answer.
-Generate Report: Download the final report summarizing your responses and feedback.
+## ✨ Features
+
+- **🎨 Modern & Responsive UI**: Clean visual design with custom CSS, interactive progress stepper, pill tags, metric cards, and responsive layout.
+- **🔍 Smart Role Matching**: Matches candidates to open roles based on degree level (*Undergraduate, Graduate, Post Graduate*), seniority (*Junior, Senior*), and field of study.
+- **📄 Resume / CV Parsing**: Upload PDF, DOCX, or TXT resumes for customized AI interview context.
+- **🤖 Tailored AI Mock Interviews**: Dynamically generates coding, conceptual, and situational questions tailored to the company's job description and candidate background.
+- **📊 Real-Time Feedback & Scoring**: Instant grading (1–10) and actionable strengths/weaknesses feedback for each submitted response.
+- **📑 Downloadable PDF Scorecard**: Generates an interview transcript with performance analytics and downloadable PDF report.
+- **⚙️ Configurable AI Engine**: In-app OpenAI API key input and model selector (`gpt-3.5-turbo`, `gpt-4o-mini`, `gpt-4o`).
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/AKM-13/job-filter-chatbot.git
+cd job-filter-chatbot
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set OpenAI API Key (Optional)
+You can set your OpenAI API key in your environment or enter it directly in the app sidebar:
+```bash
+export OPENAI_API_KEY="your-api-key-here"  # Linux / macOS
+set OPENAI_API_KEY=your-api-key-here     # Windows CMD
+$env:OPENAI_API_KEY="your-api-key-here"   # Windows PowerShell
+```
+
+### 4. Run the application
+```bash
+streamlit run JOBIEE.py
+```
+
+---
+
+## 📂 Project Structure
+```
+job-filter-chatbot/
+├── JOBIEE.py          # Main Streamlit application & AI logic
+├── requirements.txt   # Python package dependencies
+└── README.md          # Documentation & Setup guide
+```
